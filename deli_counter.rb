@@ -13,13 +13,13 @@ def line(arr)
   end
 end
 
-# # def take_a_number(arr, name)
-# #   name = name.split
-# #   name.each do |a| 
-# #     arr << a
-# #     puts "Welcome, #{a}. You are number #{arr.length} in line."
-# #   end
-# # end
+def take_a_number(arr, name)
+  name = name.split
+  name.each do |a| 
+    arr << a
+    puts "Welcome, #{a}. You are number #{arr.length} in line."
+  end
+end
 
 # def now_serving(arr)
 #   if(arr.length == 0)
