@@ -13,19 +13,19 @@ def line(arr)
   end
 end
 
-# def take_a_number(arr, name)
-#   name = name.split
-#   name.each do |a| 
-#     arr << a
-#     puts "Welcome, #{a}. You are number #{arr.length} in line."
+# # def take_a_number(arr, name)
+# #   name = name.split
+# #   name.each do |a| 
+# #     arr << a
+# #     puts "Welcome, #{a}. You are number #{arr.length} in line."
+# #   end
+# # end
+
+# def now_serving(arr)
+#   if(arr.length == 0)
+#     puts "There is nobody waiting to be served!"
+#   else
+#     puts "Currently serving #{arr[0]}."
+#     arr.shift
 #   end
 # end
-
-def now_serving(arr)
-  if(arr.length == 0)
-    puts "There is nobody waiting to be served!"
-  else
-    puts "Currently serving #{arr[0]}."
-    arr.shift
-  end
-end
